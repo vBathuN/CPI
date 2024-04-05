@@ -61,29 +61,5 @@ document.write(unescape('%3c%73%74%79%6c%65%3e%0d%0a%2e%74%6f%70%6e%65%77%73%2c%
 
 <!-- partial -->
   <script src="./script.js"></script>
-
-<script>
-const urlParams = new URLSearchParams(window.location.search);
-
-const title = urlParams.get('title');
-const subTitle = urlParams.get('subTitle');
-const once = urlParams.get('once');
-
-if (title) {
-  document.getElementById('titleText').innerHTML = title; 
-  document.getElementById('titleContainer').style.display = 'block'; 
-}
-
-if (subTitle) {
-  document.getElementById('subTitleText').innerHTML = subTitle;  
-  document.getElementById('subTitleContainer').style.display = 'block'; 
-}
-
-if (!title && !subTitle) {
-  document.getElementById('titleContainer').style.display = 'block';
-  document.getElementById('subTitleContainer').style.display = 'block';
-}
-</script>
-
 </body>
 </html>
