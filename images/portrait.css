@@ -166,7 +166,7 @@ height: 220px;
 .ticker span {
   float: right;
   width: 180px;
-  line-height: 2.2em;
+  line-height: 2em;
   margin-left: 0px;
   text-shadow: 0 2px 4px #000;
   transform: scale(1, 1.1);
