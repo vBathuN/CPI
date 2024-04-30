@@ -154,7 +154,7 @@ height: 90px;
   position: absolute;
   top: 0;
   right: 0;
-  width: 160px;
+  width: 170px;
   height: 38px;
 }
 .ticker .stock-symbol {
@@ -173,7 +173,7 @@ height: 90px;
 }
 .ticker span {
   float: right;
-  width: 105px;
+  width: 120px;
   line-height: 2.5em;
   margin-left: 0px;
   text-shadow: 0 2px 4px #000;
